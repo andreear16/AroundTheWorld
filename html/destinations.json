@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Salalah, Oman",
+        "description": "A beautiful destination with lush greenery and stunning beaches.",
+        "image": "../poze/oman.jpg"
+    },
+    {
+        "name": "Marrakech, Morocco",
+        "description": "Known as the 'Red City,' a vibrant mix of culture and tradition.",
+        "image": "../poze/morocco.jpg"
+    },
+    {
+        "name": "Côte d'Azur, France",
+        "description": "Famous for its glamorous beaches and vibrant nightlife.",
+        "image": "../poze/france.jpg"
+    }
+]

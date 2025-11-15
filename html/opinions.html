@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.cdnfonts.com/css/rawwatan" rel="stylesheet">
+      <link rel="stylesheet" href="../css/styleop.css">
+      <link rel="icon" type="image/png" href="../poze/1.png">
+      <style>
+         @import url('https://fonts.cdnfonts.com/css/rawwatan');
+      </style>
+      <title>Reviews</title>
+   </head>
+
+   <body>
+      <header class="blog-header">
+         <div class="logo">
+            <img src="../poze/1.png" alt="Travel Blog Logo">
+            <h1>Around the world</h1>
+         </div>
+         <ul class="menu">
+            <li><a href="../html/main.html">Main</a></li>
+            <li class="dropdown">
+               <a href="../html/destinations.html">Destinations</a>
+               <ul class="dropdown-menu">
+                  <li><a href="../html/oman.html">Salalah, Oman</a></li>
+                  <li><a href="../html/morocco.html">Marrakech, Morocco</a></li>
+                  <li><a href="../html/france.html">Côte d'Azur, France & Monaco</a></li>
+               </ul>
+            </li>
+            <li><a href="../html/aboutme.html">About Me💌</a></li>
+            <li><a href="../html/opinions.html">Reviews</a></li>
+            <li><a href="../html/login.html">Login</a></li>
+         </ul>
+      </header>
+      <main>
+         <div class="pagina">
+            <section class="opinion-form-section">
+               <h2>Share Your Opinion About a Destination</h2>
+               <form id="opinionForm">
+                  <label for="destination">Destination:</label>
+                  <input type="text" id="destination" placeholder="Enter destination name" required>
+                  <div class="error-message"></div>
+                  <label for="review">Your Review:</label>
+                  <textarea id="review" placeholder="Write your review" required></textarea>
+                  <div class="error-message"></div>
+                  <label for="rating">Rating:</label>
+                  <select id="rating" required>
+                     <option value="5">5 - Excellent</option>
+                     <option value="4">4 - Good</option>
+                     <option value="3">3 - Average</option>
+                     <option value="2">2 - Below Average</option>
+                     <option value="1">1 - Poor</option>
+                  </select>
+                  <button type="submit">Submit</button>
+               </form>
+            </section>
+            <section class="reviews-section">
+               <h2>All Reviews</h2>
+               <div id="reviewsContainer" class="reviews-container"></div>
+            </section>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="social-media">
+            <a href="https://www.instagram.com/andreea_x16/?hl=ro" target="_blank" aria-label="Instagram">
+            <img src="../poze/Instagram_icon.png" alt="Instagram Logo" class="social-logo">
+            </a>
+            <a href="https://www.facebook.com/andreea.radu1608/" target="_blank" aria-label="Facebook">
+            <img src="../poze/facebook.png" alt="Facebook Logo" class="social-logo">
+            </a>
+            <a href="https://www.tiktok.com/@andreeax16?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok">
+            <img src="../poze/tiktok.png" alt="TikTok Logo" class="social-logo">
+            </a>
+         </div>
+         <p class="footer-text">enjoy my blog!❤️</p>
+      </footer>
+      <script src="../java/reviews.js"></script>
+   </body>
+
+</html>

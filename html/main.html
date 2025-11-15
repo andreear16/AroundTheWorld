@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.cdnfonts.com/css/rawwatan" rel="stylesheet">
+      <link rel="stylesheet" href="../css/style1.css">
+      <link rel="icon" type="image/png" href="../poze/1.png">
+      <style>
+         @import url('https://fonts.cdnfonts.com/css/rawwatan');
+      </style>
+      <title>Around the world</title>
+   </head>
+
+   <body>
+
+      <header class="blog-header">
+         <div class="logo">
+            <img src="../poze/1.png" alt="Travel Blog Logo">
+            <h1>Around the world</h1>
+         </div>
+         <ul class="menu">
+            <li><a href="../html/main.html">Main</a></li>
+            <li class="dropdown">
+               <a href="../html/destinations.html">Destinations</a>
+               <ul class="dropdown-menu">
+                  <li><a href="../html/oman.html">Salalah, Oman</a></li>
+                  <li><a href="../html/morocco.html">Marrakech, Morocco</a></li>
+                  <li><a href="../html/france.html">Côte d'Azur, France & Monaco</a></li>
+               </ul>
+            </li>
+            <li><a href="../html/aboutme.html">About Me💌</a></li>
+            <li><a href="../html/opinions.html">Reviews</a></li>
+            <li><a href="../html/login.html">Login</a></li>
+         </ul>
+      </header>
+
+      <section class="home" id="home">
+         <div class="container">
+            <img src="../poze/mainfundal.jpg" alt="Main background image showing travel inspiration">
+            <div class="text-box">
+               <h2 id="quote"></h2>
+            </div>
+         </div>
+      </section>
+
+      <section class="text-container1">
+         <div class="c1">
+            <h3 class="title1"><b>♡ Around the world ♡</b></h3>
+         </div>
+         <div id="line" ><span class="divider"></span></div>
+         <div>
+            <p class="text1">
+               Welcome to your ultimate travel companion! Whether you're seeking thrilling adventures, serene escapes, or hidden gems, my site is your guide to exploring the world. Dive into destination guides, travel tips, and inspiring stories that spark your wanderlust. From breathtaking landscapes to vibrant cultures, let me help you plan unforgettable journeys and turn your travel dreams into reality. Your next adventure starts here!
+            </p>
+         </div>
+      </section>
+
+      <section class="style-changer">
+         <button id="changeStyleButton">Change Text Style</button>
+      </section>
+
+      <section class="interactive-map">
+         <h3>Places I've been to📍</h3>
+         <canvas id="worldCanvas" width="800" height="400"></canvas>
+      </section>
+
+      <section class="review-section">
+         <h3>Don't forget to leave a review!</h3>
+         <a href="../html/opinions.html" class="review-button">Leave a Review</a>
+      </section>
+
+      <section class="carousel-row">
+         <div class="static-image left">
+            <img src="../poze/moschee.jpg" alt="Left Image">
+            <div class="image-overlay">
+               Sultan Qaboos Mosque, Salalah
+            </div>
+         </div>
+         <div class="static-image left">
+            <img src="../poze/majorelle.jpg" alt="Left Image">
+            <div class="image-overlay">
+               Jardin Majorelle, Marrakech
+            </div>
+         </div>
+         <div class="carousel-container">
+            <div class="carousel">
+               <div class="carousel-item"><img src="../poze/slide1.jpeg" alt="Image 1"></div>
+               <div class="carousel-item"><img src="../poze/slide2.jpeg" alt="Image 2"></div>
+               <div class="carousel-item"><img src="../poze/slide3.jpeg" alt="Image 3"></div>
+               <div class="carousel-item"><img src="../poze/slide4.jpeg" alt="Image 4"></div>
+               <div class="carousel-item"><img src="../poze/slide5.jpeg" alt="Image 5"></div>
+               <div class="carousel-item"><img src="../poze/slide6.jpeg" alt="Image 6"></div>
+            </div>
+            <button class="carousel-btn prev">‹</button>
+            <button class="carousel-btn next">›</button>
+         </div>
+         <div class="static-image right">
+            <img src="../poze/promenada.png" alt="Right Image">
+            <div class="image-overlay">
+               Promenade des Anglais, Nice
+            </div>
+         </div>
+         <div class="static-image right">
+            <img src="../poze/slide7.jpeg" alt="Right Image">
+            <div class="image-overlay">
+               Musée Océanographique de Monaco
+            </div>
+         </div>
+      </section>
+
+      <section id="ajax-destinations">
+         <h2>Top Destinations</h2>
+         <div id="destination-list"></div>
+      </section>
+     
+      <footer class="footer">
+         <div class="social-media">
+            <a href="https://www.instagram.com/andreea_x16/?hl=ro" target="_blank" aria-label="Instagram">
+            <img src="../poze/Instagram_icon.png" alt="Instagram Logo" class="social-logo">
+            </a>
+            <a href="https://www.facebook.com/andreea.radu1608/" target="_blank" aria-label="Facebook">
+            <img src="../poze/facebook.png" alt="Facebook Logo" class="social-logo">
+            </a>
+            <a href="https://www.tiktok.com/@andreeax16?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok">
+            <img src="../poze/tiktok.png" alt="TikTok Logo" class="social-logo">
+            </a>
+         </div>
+         <p class="footer-text">enjoy my blog!❤️</p>
+      </footer>
+      <script src="../java/script.js"></script>
+      <script src="../java/script2.js"></script>
+   </body>
+   
+</html>
